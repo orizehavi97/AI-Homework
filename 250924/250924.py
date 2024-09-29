@@ -89,11 +89,10 @@ while True:
         break
     if not 0 <= num <= 10:
         continue
-    num_list.append(num)
     index_list[num] += 1
 
     print("Statistics: ", end="")
-    for i in range(11):
+    for i in range(SENTINEL+1):
         if index_list[i] > 0:
             print(f"[{i}]: {index_list[i]}", end=" ")
     print()
