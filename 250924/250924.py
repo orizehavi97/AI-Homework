@@ -76,7 +76,6 @@ while True:
 # Exercise 3
 
 num = 0
-num_list: list[int] = []
 index_list: list[int] = []
 SENTINEL = 10
 
