@@ -64,9 +64,8 @@ while True:
             count_answers[3] += 1
         case _:
             print("Invalid answer")
-            continue
+            
 str1 = 'abcd'
 for i in range(4):
     print(f"{count_answers[i]} answered '{str1[i]}', ")
-print(
-    f"Most popular answer: '{str1[count_answers.index(max(count_answers))]}', Least popular answer: '{str1[count_answers.index(min(count_answers))]}'")
+print(f"Most popular answer: '{str1[count_answers.index(max(count_answers))]}', Least popular answer: '{str1[count_answers.index(min(count_answers))]}'")
