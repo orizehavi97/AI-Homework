@@ -1,6 +1,7 @@
 # Test 1 - 06.11.24 - Ori Zehavi
 import statistics
 
+
 # Conditions
 # 1
 first_float: float = float(input("Enter the first float: "))
@@ -71,7 +72,7 @@ for i in range(6, -1, -1):
     after_tax += (paycheck - range_list[(i)]) * (100 - precentage_list[i]) / 100 if original_paycheck > range_list[
         i] else 0
     paycheck -= (paycheck - range_list[(i)]) if original_paycheck > range_list[i] else 0
-print(after_tax)
+print("Tax:", original_paycheck - after_tax)
 
 # 11
 try:
